@@ -13,7 +13,7 @@ function randomNumber(number) {
 //Función que retorna un array de 5 números aleatorios
 const keyGenerator = () => {
   let key = [];
-  for (let i = 1; i <= 5; i++) {
+  for (let i = 0; i < 5; i++) {
     /*    let number = randomNumber();
     while(key.includes(number)) {
       number = randomNumber();
@@ -32,7 +32,7 @@ const keyGenerator = () => {
 //Función que retorna un array de dos número aleatorios.
 const starsGenerator = () => {
   let stars = [];
-  for (let i = 1; i <= 2; i++) {
+  for (let i = 0; i < 2; i++) {
     let number;
     do {
       number = randomNumber(8);
