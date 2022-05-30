@@ -1,0 +1,37 @@
+.main {
+  margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.main__title {
+  margin-bottom: 50px;
+}
+
+.main__button {
+  border-style: none;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 50px;
+  background-color: lavender;
+  border-radius: 10px;
+}
+
+.stars {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+/*# sourceMappingURL=main.css.map */
